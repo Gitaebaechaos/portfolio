@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		290E52E42733A5FA008CF750 /* FreightFrenzy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 290E52E22733A5FA008CF750 /* FreightFrenzy.xcdatamodeld */; };
+		290E52E62733A645008CF750 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E52E52733A645008CF750 /* DataManager.swift */; };
+		290E52E82733A69E008CF750 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E52E72733A69E008CF750 /* Team.swift */; };
+		290E53172734ECD0008CF750 /* ScoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E53162734ECD0008CF750 /* ScoreCell.swift */; };
+		290E53192734ED23008CF750 /* ScoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E53182734ED23008CF750 /* ScoresViewController.swift */; };
+		290E531B2734ED36008CF750 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E531A2734ED36008CF750 /* ScoreViewController.swift */; };
+		290E531D2734F2A3008CF750 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E531C2734F2A3008CF750 /* Score.swift */; };
+		290E53212736D18C008CF750 /* Freight Frenzy.png in Resources */ = {isa = PBXBuildFile; fileRef = 290E53202736D18C008CF750 /* Freight Frenzy.png */; };
+		290E53252736D19B008CF750 /* Freight Frenzy3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 290E53242736D19B008CF750 /* Freight Frenzy3.jpeg */; };
+		290E53272736D1A3008CF750 /* Freight Frenzy4.png in Resources */ = {isa = PBXBuildFile; fileRef = 290E53262736D1A3008CF750 /* Freight Frenzy4.png */; };
+		2964E96F272FA29400EB7CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964E96E272FA29400EB7CE5 /* AppDelegate.swift */; };
+		2964E971272FA29400EB7CE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964E970272FA29400EB7CE5 /* SceneDelegate.swift */; };
+		2964E973272FA29400EB7CE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964E972272FA29400EB7CE5 /* ViewController.swift */; };
+		2964E976272FA29400EB7CE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2964E974272FA29400EB7CE5 /* Main.storyboard */; };
+		2964E97B272FA29600EB7CE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2964E97A272FA29600EB7CE5 /* Assets.xcassets */; };
+		2964E97E272FA29600EB7CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2964E97C272FA29600EB7CE5 /* LaunchScreen.storyboard */; };
+		2964E986272FA47D00EB7CE5 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964E985272FA47D00EB7CE5 /* SwiftyJSON.swift */; };
+		2964E98A272FAFF300EB7CE5 /* Freight Frenzy2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2964E989272FAFF300EB7CE5 /* Freight Frenzy2.jpeg */; };
+		2964E9922730387000EB7CE5 /* AutoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964E9912730387000EB7CE5 /* AutoViewController.swift */; };
+		2964E9942730388B00EB7CE5 /* DriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964E9932730388B00EB7CE5 /* DriverViewController.swift */; };
+		2964E9962730389300EB7CE5 /* EndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964E9952730389300EB7CE5 /* EndViewController.swift */; };
+		2964E9982730389E00EB7CE5 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964E9972730389E00EB7CE5 /* RecordViewController.swift */; };
+		2964E9A62732DB1100EB7CE5 /* ScoreKeep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964E9A52732DB1100EB7CE5 /* ScoreKeep.swift */; };
+		29DD23B2273303F400185F08 /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD23B1273303F400185F08 /* TeamCell.swift */; };
+		29DD23B62733048C00185F08 /* TeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD23B52733048C00185F08 /* TeamsViewController.swift */; };
+		29DD23C02733168F00185F08 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD23BF2733168F00185F08 /* TeamViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		290E52E32733A5FA008CF750 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		290E52E52733A645008CF750 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		290E52E72733A69E008CF750 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		290E53162734ECD0008CF750 /* ScoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCell.swift; sourceTree = "<group>"; };
+		290E53182734ED23008CF750 /* ScoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresViewController.swift; sourceTree = "<group>"; };
+		290E531A2734ED36008CF750 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		290E531C2734F2A3008CF750 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		290E53202736D18C008CF750 /* Freight Frenzy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Freight Frenzy.png"; sourceTree = "<group>"; };
+		290E53242736D19B008CF750 /* Freight Frenzy3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Freight Frenzy3.jpeg"; sourceTree = "<group>"; };
+		290E53262736D1A3008CF750 /* Freight Frenzy4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Freight Frenzy4.png"; sourceTree = "<group>"; };
+		2964E96B272FA29400EB7CE5 /* Assignment2 - Freight Frenzy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment2 - Freight Frenzy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2964E96E272FA29400EB7CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2964E970272FA29400EB7CE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2964E972272FA29400EB7CE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2964E975272FA29400EB7CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2964E97A272FA29600EB7CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2964E97D272FA29600EB7CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2964E97F272FA29600EB7CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2964E985272FA47D00EB7CE5 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "../../../../../Downloads/Cooking App Part 06/Cooking App/SwiftyJSON.swift"; sourceTree = "<group>"; };
+		2964E989272FAFF300EB7CE5 /* Freight Frenzy2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Freight Frenzy2.jpeg"; path = "../Freight Frenzy2.jpeg"; sourceTree = "<group>"; };
+		2964E9912730387000EB7CE5 /* AutoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoViewController.swift; sourceTree = "<group>"; };
+		2964E9932730388B00EB7CE5 /* DriverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverViewController.swift; sourceTree = "<group>"; };
+		2964E9952730389300EB7CE5 /* EndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndViewController.swift; sourceTree = "<group>"; };
+		2964E9972730389E00EB7CE5 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		2964E9A52732DB1100EB7CE5 /* ScoreKeep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreKeep.swift; sourceTree = "<group>"; };
+		29DD23B1273303F400185F08 /* TeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
+		29DD23B52733048C00185F08 /* TeamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsViewController.swift; sourceTree = "<group>"; };
+		29DD23BF2733168F00185F08 /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2964E968272FA29400EB7CE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2964E962272FA29400EB7CE5 = {
+			isa = PBXGroup;
+			children = (
+				290E53202736D18C008CF750 /* Freight Frenzy.png */,
+				290E53242736D19B008CF750 /* Freight Frenzy3.jpeg */,
+				290E53262736D1A3008CF750 /* Freight Frenzy4.png */,
+				2964E989272FAFF300EB7CE5 /* Freight Frenzy2.jpeg */,
+				2964E96D272FA29400EB7CE5 /* Assignment2 - Freight Frenzy */,
+				2964E96C272FA29400EB7CE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2964E96C272FA29400EB7CE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2964E96B272FA29400EB7CE5 /* Assignment2 - Freight Frenzy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2964E96D272FA29400EB7CE5 /* Assignment2 - Freight Frenzy */ = {
+			isa = PBXGroup;
+			children = (
+				2964E985272FA47D00EB7CE5 /* SwiftyJSON.swift */,
+				2964E96E272FA29400EB7CE5 /* AppDelegate.swift */,
+				2964E970272FA29400EB7CE5 /* SceneDelegate.swift */,
+				2964E972272FA29400EB7CE5 /* ViewController.swift */,
+				2964E974272FA29400EB7CE5 /* Main.storyboard */,
+				2964E97A272FA29600EB7CE5 /* Assets.xcassets */,
+				2964E97C272FA29600EB7CE5 /* LaunchScreen.storyboard */,
+				2964E97F272FA29600EB7CE5 /* Info.plist */,
+				290E52E22733A5FA008CF750 /* FreightFrenzy.xcdatamodeld */,
+				290E52E52733A645008CF750 /* DataManager.swift */,
+				2964E9912730387000EB7CE5 /* AutoViewController.swift */,
+				2964E9932730388B00EB7CE5 /* DriverViewController.swift */,
+				2964E9952730389300EB7CE5 /* EndViewController.swift */,
+				2964E9972730389E00EB7CE5 /* RecordViewController.swift */,
+				2964E9A52732DB1100EB7CE5 /* ScoreKeep.swift */,
+				29DD23B1273303F400185F08 /* TeamCell.swift */,
+				29DD23B52733048C00185F08 /* TeamsViewController.swift */,
+				29DD23BF2733168F00185F08 /* TeamViewController.swift */,
+				290E52E72733A69E008CF750 /* Team.swift */,
+				290E53162734ECD0008CF750 /* ScoreCell.swift */,
+				290E53182734ED23008CF750 /* ScoresViewController.swift */,
+				290E531A2734ED36008CF750 /* ScoreViewController.swift */,
+				290E531C2734F2A3008CF750 /* Score.swift */,
+			);
+			path = "Assignment2 - Freight Frenzy";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2964E96A272FA29400EB7CE5 /* Assignment2 - Freight Frenzy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2964E982272FA29600EB7CE5 /* Build configuration list for PBXNativeTarget "Assignment2 - Freight Frenzy" */;
+			buildPhases = (
+				2964E967272FA29400EB7CE5 /* Sources */,
+				2964E968272FA29400EB7CE5 /* Frameworks */,
+				2964E969272FA29400EB7CE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Assignment2 - Freight Frenzy";
+			productName = "Assignment2 - Freight Frenzy";
+			productReference = 2964E96B272FA29400EB7CE5 /* Assignment2 - Freight Frenzy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2964E963272FA29400EB7CE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2964E96A272FA29400EB7CE5 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 2964E966272FA29400EB7CE5 /* Build configuration list for PBXProject "Assignment2 - Freight Frenzy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2964E962272FA29400EB7CE5;
+			productRefGroup = 2964E96C272FA29400EB7CE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2964E96A272FA29400EB7CE5 /* Assignment2 - Freight Frenzy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2964E969272FA29400EB7CE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2964E97E272FA29600EB7CE5 /* LaunchScreen.storyboard in Resources */,
+				290E53272736D1A3008CF750 /* Freight Frenzy4.png in Resources */,
+				290E53252736D19B008CF750 /* Freight Frenzy3.jpeg in Resources */,
+				290E53212736D18C008CF750 /* Freight Frenzy.png in Resources */,
+				2964E97B272FA29600EB7CE5 /* Assets.xcassets in Resources */,
+				2964E976272FA29400EB7CE5 /* Main.storyboard in Resources */,
+				2964E98A272FAFF300EB7CE5 /* Freight Frenzy2.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2964E967272FA29400EB7CE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2964E9962730389300EB7CE5 /* EndViewController.swift in Sources */,
+				29DD23B62733048C00185F08 /* TeamsViewController.swift in Sources */,
+				29DD23C02733168F00185F08 /* TeamViewController.swift in Sources */,
+				290E52E82733A69E008CF750 /* Team.swift in Sources */,
+				290E52E62733A645008CF750 /* DataManager.swift in Sources */,
+				2964E9942730388B00EB7CE5 /* DriverViewController.swift in Sources */,
+				290E53172734ECD0008CF750 /* ScoreCell.swift in Sources */,
+				2964E973272FA29400EB7CE5 /* ViewController.swift in Sources */,
+				2964E9A62732DB1100EB7CE5 /* ScoreKeep.swift in Sources */,
+				29DD23B2273303F400185F08 /* TeamCell.swift in Sources */,
+				2964E96F272FA29400EB7CE5 /* AppDelegate.swift in Sources */,
+				2964E971272FA29400EB7CE5 /* SceneDelegate.swift in Sources */,
+				290E53192734ED23008CF750 /* ScoresViewController.swift in Sources */,
+				290E531D2734F2A3008CF750 /* Score.swift in Sources */,
+				2964E986272FA47D00EB7CE5 /* SwiftyJSON.swift in Sources */,
+				2964E9982730389E00EB7CE5 /* RecordViewController.swift in Sources */,
+				290E52E42733A5FA008CF750 /* FreightFrenzy.xcdatamodeld in Sources */,
+				2964E9922730387000EB7CE5 /* AutoViewController.swift in Sources */,
+				290E531B2734ED36008CF750 /* ScoreViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2964E974272FA29400EB7CE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2964E975272FA29400EB7CE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2964E97C272FA29600EB7CE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2964E97D272FA29600EB7CE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2964E980272FA29600EB7CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2964E981272FA29600EB7CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2964E983272FA29600EB7CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BMHSPQK5P;
+				INFOPLIST_FILE = "Assignment2 - Freight Frenzy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "au.edu.unisa.stem.Assignment2---Freight-Frenzy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2964E984272FA29600EB7CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BMHSPQK5P;
+				INFOPLIST_FILE = "Assignment2 - Freight Frenzy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "au.edu.unisa.stem.Assignment2---Freight-Frenzy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2964E966272FA29400EB7CE5 /* Build configuration list for PBXProject "Assignment2 - Freight Frenzy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2964E980272FA29600EB7CE5 /* Debug */,
+				2964E981272FA29600EB7CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2964E982272FA29600EB7CE5 /* Build configuration list for PBXNativeTarget "Assignment2 - Freight Frenzy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2964E983272FA29600EB7CE5 /* Debug */,
+				2964E984272FA29600EB7CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		290E52E22733A5FA008CF750 /* FreightFrenzy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				290E52E32733A5FA008CF750 /* Model.xcdatamodel */,
+			);
+			currentVersion = 290E52E32733A5FA008CF750 /* Model.xcdatamodel */;
+			path = FreightFrenzy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2964E963272FA29400EB7CE5 /* Project object */;
+}
