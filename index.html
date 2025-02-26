@@ -5,18 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>배기태의 포트폴리오</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
-        h1 { color: #007bff; }
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f4f4f4; }
+        .container { width: 80%; margin: 0 auto; padding: 20px; }
+        header { background-color: #333; color: #fff; padding: 20px 0; text-align: center; }
+        section { margin-top: 20px; padding: 20px; background-color: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        h1, h2, h3 { color: #333; }
+        p { font-size: 1.1em; }
+        .skills ul { list-style-type: none; padding: 0; }
+        .skills ul li { display: inline-block; margin-right: 10px; background-color: #2a9d8f; color: white; padding: 10px 15px; border-radius: 20px; }
+        .project { margin-top: 20px; }
     </style>
 </head>
 <body>
-    <h1>배기태의 포트폴리오</h1>
-    <p>안녕하세요! 저는 소프트웨어 개발자 배기태입니다.</p>
-    <h2>📌 프로젝트 목록</h2>
-    <ul>
-        <li><a href="Project1/index.html">프로젝트 1</a></li>
-        <li><a href="Project2/index.html">프로젝트 2</a></li>
-        <li><a href="Project3/index.html">프로젝트 3</a></li>
-    </ul>
+    <header>
+        <h1>배기태의 포트폴리오</h1>
+        <p>개발자 | Java, Spring, MySQL 전문가</p>
+    </header>
+
+    <div class="container">
+        <!-- 자기소개 -->
+        <section>
+            <h2>자기소개</h2>
+            <p>배기태는 OO 분야에 관심이 많은 개발자로, OO 기술을 주로 사용합니다. 다양한 프로젝트를 통해 실제 경험을 쌓고 있으며, 항상 새로운 기술을 배우고 적용하는 것을 좋아합니다.</p>
+        </section>
+
+        <!-- 기술 스택 -->
+        <section class="skills">
+            <h2>기술 스택</h2>
+            <ul>
+                <li>Java</li>
+                <li>Spring</li>
+                <li>MySQL</li>
+                <li>Git</li>
+                <li>HTML, CSS, JavaScript</li>
+            </ul>
+        </section>
+
+        <!-- 프로젝트 설명 -->
+        <section class="projects">
+            <h2>프로젝트</h2>
+            
+            <!-- 프로젝트 1 -->
+            <div class="project">
+                <h3>프로젝트 이름 1</h3>
+                <p><strong>목적:</strong> 이 프로젝트는 OO 문제를 해결하기 위한 웹 애플리케이션입니다.</p>
+                <p><strong>기능:</strong> 사용자는 OO 기능을 통해 OO를 할 수 있습니다. 주요 기능으로는 OO, OO, OO가 포함됩니다.</p>
+                <p><strong>기술 스택:</strong> Java, Spring, MySQL, Thymeleaf</p>
+            </div>
+
+            <!-- 프로젝트 2 -->
+            <div class="project">
+                <h3>프로젝트 이름 2</h3>
+                <p><strong>목적:</strong> 이 프로젝트는 OO 서비스를 제공하는 모바일 애플리케이션입니다.</p>
+                <p><strong>기능:</strong> 사용자는 OO 기능을 통해 OO를 할 수 있습니다. 주요 기능으로는 OO, OO, OO가 포함됩니다.</p>
+                <p><strong>기술 스택:</strong> Java, Spring, MySQL</p>
+            </div>
+
+            <!-- 추가적인 프로젝트들 -->
+        </section>
+    </div>
 </body>
 </html>
