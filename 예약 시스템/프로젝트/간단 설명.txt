@@ -1,0 +1,13 @@
+# ProjectStudio: Authors
+Elijah Mifsud (Mifem001)
+Gitae Bae (baegy002)
+Mingu Kang (kanmy047)
+
+#How to use:
+1. Download and install XAMPP from https://www.apachefriends.org/download.html
+2. Open the XAMPP Control Panel
+3. Replace the "wwwroot" file in "local(C:)/xampp/htdocs" with the "wwwroot" provided 
+4. Using XAMPP Control Panel:
+	-	Start Apache Module
+	-	Start MySQL Module
+5. Product now running locally. Access from a browser at http://www.localhost/wwwroot/select.php

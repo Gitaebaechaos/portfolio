@@ -1,0 +1,547 @@
+
+@font-face {
+    font-family: adster; 
+    src: url(/font/abster-webfont.woff) format('woff');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* index */
+
+
+.index-container{
+    width: 100%;
+    height: 80vh; 
+    background: url(https://www.tastingtable.com/img/gallery/the-fine-dining-menu-rule-you-probably-dont-know/l-intro-1655466259.jpg);
+    justify-content: center;
+    align-items: center;
+}
+
+
+.index-container .header{
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+
+
+.index-container .header h1 a {
+    text-decoration: none;
+    color:  white;
+    font-family: abster;
+
+}
+
+.index-container .nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+
+}
+
+.index-container .nav ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.index-container .nav ul li a:hover {
+    color: #1fdfdf
+}
+
+.index-container .hero{
+    position: absolute;
+    left: 50%;
+    top : 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+.index-container .hero h2{
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.index-container .hero p{
+    font-size: 22px;
+    
+}
+
+/* LaOste */
+.container-laOste{
+    width: 100%;
+    height: 80vh; 
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("images/brazilian-main.jpg");
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-laOste .header{
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+
+
+.container-laOste .header h1 a {
+    text-decoration: none;
+    color:  white;
+    font-family: abster;
+
+}
+
+.container-laOste .nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+
+}
+
+.container-laOste .nav ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.container-laOste .nav ul li a:hover {
+    color: #1fdfdf
+}
+
+.container-laOste .hero{
+    position: absolute;
+    left: 50%;
+    top : 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+.container-laOste .hero h2{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.container-laOste .hero p{
+    font-size: 22px;
+    
+}
+
+.container-laOste .hero button {
+
+    display: inline-block;
+    font-size: 13px;
+    background: none;
+    border: 2px solid darkseagreen;
+    color: white; 
+    padding: 12px 34px;
+    border-radius: 20px;
+    margin-top: 30px;
+    outline : none;
+    cursor: pointer;
+    transition-delay: .2s;
+    position: relative;
+
+}
+
+.contcontainer-laOsteainer .hero button:hover {
+    background-color: darkslategrey;
+}
+
+/* Mexikana */
+
+.container-mexikana{
+    width: 100%;
+    height: 80vh; 
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("images/brazilian-main.jpg");
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-mexikana .header{
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+
+
+.container-mexikana .header h1 a {
+    text-decoration: none;
+    color:  white;
+    font-family: abster;
+
+}
+
+.container-mexikana .nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+
+}
+
+.container-mexikana .nav ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.container-mexikana .nav ul li a:hover {
+    color: #1fdfdf
+}
+
+.container-mexikana .hero{
+    position: absolute;
+    left: 50%;
+    top : 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+.container-mexikana .hero h2{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.container-mexikana .hero p{
+    font-size: 22px;
+    
+}
+
+.container-mexikana .hero button {
+
+    display: inline-block;
+    font-size: 13px;
+    background: none;
+    border: 2px solid darkseagreen;
+    color: white; 
+    padding: 12px 34px;
+    border-radius: 20px;
+    margin-top: 30px;
+    outline : none;
+    cursor: pointer;
+    transition-delay: .2s;
+    position: relative;
+
+}
+
+.contcontainer-mexikana .hero button:hover {
+    background-color: darkslategrey;
+}
+
+
+/* bambooleaf */
+
+.container{
+    width: 100%;
+    height: 80vh; 
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("images/ko-mexi-main.jpeg");
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container .header{
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+
+
+.container .header h1 a {
+    text-decoration: none;
+    color:  white;
+    font-family: abster;
+
+}
+
+.container .nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+
+}
+
+.container .nav ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.container .nav ul li a:hover {
+    color: #1fdfdf
+}
+
+.container .hero{
+    position: absolute;
+    left: 50%;
+    top : 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+.container .hero h2{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.container .hero p{
+    font-size: 22px;
+    
+}
+
+.container .hero button {
+
+    display: inline-block;
+    font-size: 13px;
+    background: none;
+    border: 2px solid darkseagreen;
+    color: white; 
+    padding: 12px 34px;
+    border-radius: 20px;
+    margin-top: 30px;
+    outline : none;
+    cursor: pointer;
+    transition-delay: .2s;
+    position: relative;
+
+}
+
+.container .hero button:hover {
+    background-color: darkslategrey;
+}
+/* index-branches */
+
+#branches {
+    width: 100%;
+    height: 600px;
+
+    padding: 100px;
+    background-color: orange; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+
+}
+
+
+.branches-heading{
+    display: felx;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.branches-heading h3{
+    font-size: 2.4rem;
+    color: black;
+    font-weight: 600;
+
+}
+
+.branches-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;  
+    flex-wrap: wrap;
+
+}
+.branches-box{
+    width: 350px;
+    /* background-color: #6f4f28; */
+    background-color: white;
+
+    margin: 20px;
+
+}
+
+
+.branches-img{
+    width: 100%;
+    height: auto;
+}
+
+.branches-img img{
+    width: 100%;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.branches-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.branches-text h5{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #6f4f28;
+
+}
+
+
+.branches-text p{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #9b9b9b;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+
+}
+
+.branches-text button{
+    display: inline-block;
+    font-size: 13px;
+    background: none;
+    border: 2px solid orange; 
+    color: orange; 
+    padding: 12px 34px;
+    border-radius: 20px;
+    margin-top: 30px; 
+    outline : none;
+    cursor: pointer;
+    transition-delay: .2s;
+    position: relative;
+}
+
+.branches-text button a {
+    text-decoration: none;
+    color: orange;
+}
+
+.branches-text button:hover {
+    background-color: darkslategrey;
+}
+
+/* 
+.branches-text a{
+    color: #0f0f0f;
+    text-decoration:none;
+
+}
+.branches-text a:hover{
+    color: red;
+    transition: all ease 0.3s;
+
+} */
+
+
+/*----- About -----*/
+
+
+.about {
+    width: 100%;
+    padding: 100px;
+    background-color: orange; 
+}
+
+.about img{
+    border-radius: 10px;
+    height: auto;
+    width: 600px;
+    margin-right: 40px;
+
+}
+
+.about-text{
+    width: 550px;
+
+}
+
+.about-main{
+    width: 1300px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.about .about-text button{
+    display: inline-block;
+    font-size: 13px;
+    background: none;
+    border: 2px solid black;
+    color: white; 
+    padding: 12px 34px;
+    border-radius: 20px;
+    margin-top: 30px; 
+    outline : none;
+    cursor: pointer;
+    transition-delay: .2s;
+    position: relative;
+}
+
+.about .about-text button:hover {
+    background-color: darkslategrey;
+}
+
+.about-text h2{
+    color: balck;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+}
+
+.about-text h3{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.about-text p{
+    color: balck;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 13px;
+
+}
