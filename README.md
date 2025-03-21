@@ -4,3 +4,4 @@
 작품소개 : 다양한 프로젝트들을 깃허브에 등록해두었다. 너무 큰 파일들은 zip 파일로 올렸고 그 외 파일들은 기본 폴더로 올려두었다. 각 폴더에 README 파일로 각 프로젝트 간단한 설명을 해두었고 그 외 파일들은 작업했던 파일들이다.
 
 ![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/1.png)
+![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/2.png)
