@@ -2,3 +2,6 @@
 작업인원 : 1 명
 작업 툴 : Word
 작품소개 : 이 작품은 빅데이터와 인공지능(AI) 기술을 활용하여 특정 산업과 조직의 비즈니스 요구에 맞는 기술 솔루션과 전략을 제안하는 내용을 다룹니다. 과제 1에서는 AI 기술을 통해 산업별 문제 해결 방안을 제시하고, 과제 2에서는 빅데이터 전략을 통해 조직의 데이터 활용도를 높이는 방안을 제안합니다. 이를 통해 각 조직이 데이터 기반 의사결정을 할 수 있도록 돕고, 실용적이고 실행 가능한 솔루션을 제공합니다.
+![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/26.png)
+![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/25.png)
+![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/24.png)
