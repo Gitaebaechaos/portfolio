@@ -2,3 +2,5 @@
 작업인원 : 1 명
 작업 툴 : Cloud, java
 작품소개 : Cloud와 Concurrent programming을 이해하기 위해 Uber와 유사한 시스템에 대해 리포트를 작성하고, 이를 바탕으로 자바를 이용해 코딩을 진행한 프로젝트입니다. 이 시스템은 클라우드 기반의 교통 서비스 시뮬레이션을 다루며, 동시 실행되는 예약 시스템을 구현하였습니다.
+![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/7.png)
+![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/6.png)
