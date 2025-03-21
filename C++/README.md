@@ -2,3 +2,6 @@
 작업인원 : 1 명
 작업 툴 : C++
 작품소개 : "Sushi Slam!"은 C++을 사용해 개발한 카드 드래프팅 게임으로, 두 명의 플레이어가 스시 카드를 선택하여 점수를 얻고 경쟁하는 게임입니다. "Sushi Go!"를 기반으로 하여 독창적인 규칙을 적용하였습니다. 또한, "환자 관리 시스템"은 환자의 생체 신호를 기록하고 질병에 따라 경고 레벨을 제공하는 시스템으로, C++을 이용해 환자 정보를 관리하고 경고 시스템을 구현하였습니다. 두 시스템 모두 실시간 데이터 처리와 사용자 상호작용을 중점으로 설계되었습니다.
+![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/12.png)
+![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/11.png)
+![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/10.png)
