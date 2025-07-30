@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>시설물 위치 정보 관리</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=375983c6c68a1b99951f501a48347080"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', '맑은 고딕', Arial, sans-serif;
+            background: #f4f6fa;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 30px auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            padding: 32px 40px 40px 40px;
+        }
+        h1 {
+            text-align: center;
+            color: #2d3a4b;
+            font-size: 2.2em;
+            margin-bottom: 32px;
+        }
+        #map {
+            width: 100%;
+            height: 450px;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+            margin-bottom: 32px;
+        }
+        .flex-row {
+            display: flex;
+            gap: 32px;
+            justify-content: space-between;
+        }
+        .left, .right {
+            flex: 1 1 350px;
+            min-width: 300px;
+        }
+        .right {
+            display: flex;
+            flex-direction: column;
+        }
+        .register-title {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #2563eb;
+            margin-bottom: 10px;
+        }
+        form {
+            background: #f8fafc;
+            padding: 24px 20px 24px 20px;
+            border-radius: 8px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+            margin-bottom: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+        }
+        form label {
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+        form input[type=text] {
+            width: 100%;
+            padding: 9px;
+            margin-top: 4px;
+            margin-bottom: 14px;
+            border: 1px solid #bfc9d1;
+            border-radius: 4px;
+            font-size: 15px;
+        }
+        form button {
+            background: #3b82f6;
+            color: #fff;
+            border: none;
+            padding: 12px 0;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 8px;
+        }
+        form button:hover {
+            background: #2563eb;
+        }
+        #message {
+            color: #2563eb;
+            margin-bottom: 10px;
+            min-height: 20px;
+        }
+        h2 {
+            color: #2d3a4b;
+            margin-top: 0;
+            font-size: 1.2em;
+        }
+        #placeList {
+            list-style: none;
+            padding: 0;
+            max-height: 400px;
+            overflow-y: auto;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            background: #f8fafc;
+        }
+        #placeList li {
+            background: #f1f5f9;
+            margin-bottom: 8px;
+            padding: 10px 12px;
+            border-radius: 4px;
+            font-size: 14px;
+            color: #374151;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+            cursor: pointer;
+            transition: background 0.2s;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #placeList li.selected {
+            background: #dbeafe;
+        }
+        .place-actions button {
+            margin-left: 6px;
+            background: #e5e7eb;
+            border: none;
+            border-radius: 3px;
+            padding: 3px 8px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        .place-actions button:hover {
+            background: #93c5fd;
+        }
+        .detail-box {
+            background: #f1f5f9;
+            border-radius: 6px;
+            padding: 16px;
+            margin-bottom: 18px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+            font-size: 15px;
+        }
+        .detail-box input[type=text] {
+            width: 90%;
+            margin-bottom: 8px;
+        }
+        .detail-actions {
+            margin-top: 10px;
+        }
+        .detail-actions button {
+            margin-right: 8px;
+            background: #3b82f6;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            padding: 6px 14px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .detail-actions button.delete {
+            background: #ef4444;
+        }
+        .detail-actions button:hover {
+            opacity: 0.85;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>시설물 위치 정보 관리</h1>
+        <div id="map"></div>
+        <div class="flex-row">
+            <div class="right">
+                <h2>시설물 목록</h2>
+                <ul id="placeList"></ul>
+            </div>
+            <div class="left">
+                <div class="register-title">시설물 등록</div>
+                <form id="registerForm" action="/register" method="post" autocomplete="off">
+                    <div id="message"></div>
+                    <label>시설물명:
+                        <input type="text" name="name" required>
+                    </label>
+                    <label>주소:
+                        <input type="text" name="address" required>
+                    </label>
+                    <label>위도:
+                        <input type="text" id="lat" name="lat" required>
+                    </label>
+                    <label>경도:
+                        <input type="text" id="lng" name="lng" required>
+                    </label>
+                    <button type="submit">등록</button>
+                </form>
+                <div id="detailBox" class="detail-box" style="display:none;"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let map, markers = [], selectedPlaceId = null, placesData = [];
+        window.onload = function() {
+            var mapContainer = document.getElementById('map');
+            var mapOption = {
+                center: new kakao.maps.LatLng(37.5665, 126.9780),
+                level: 3
+            };
+            map = new kakao.maps.Map(mapContainer, mapOption);
+
+            // 지도 클릭 시 위도/경도 입력
+            kakao.maps.event.addListener(map, 'click', function(mouseEvent) {
+                var latlng = mouseEvent.latLng;
+                document.getElementById('lat').value = latlng.getLat();
+                document.getElementById('lng').value = latlng.getLng();
+            });
+
+            loadPlaces();
+        };
+
+        function loadPlaces() {
+            fetch('/places')
+                .then(response => response.json())
+                .then(data => {
+                    placesData = data;
+                    renderMarkersAndList();
+                });
+        }
+
+        function renderMarkersAndList() {
+            // 마커/리스트 초기화
+            markers.forEach(m => m.setMap(null));
+            markers = [];
+            const list = document.getElementById('placeList');
+            list.innerHTML = '';
+            if (!Array.isArray(placesData) || placesData.length === 0) {
+                list.innerHTML = '<li>등록된 시설물이 없습니다.</li>';
+                return;
+            }
+            placesData.forEach(function(place, idx) {
+                // 마커 표시
+                if (place.lat && place.lng) {
+                    var marker = new kakao.maps.Marker({
+                        map: map,
+                        position: new kakao.maps.LatLng(place.lat, place.lng)
+                    });
+                    markers.push(marker);
+                    kakao.maps.event.addListener(marker, 'click', function() {
+                        showDetail(place.id);
+                        selectListItem(place.id);
+                    });
+                }
+                // 리스트 표시
+                var li = document.createElement('li');
+                li.innerHTML = `${place.name} (${place.address}) <span class="place-actions"><button onclick="showDetail(${place.id});event.stopPropagation();">상세</button></span>`;
+                li.onclick = function() {
+                    showDetail(place.id);
+                    selectListItem(place.id);
+                    if (place.lat && place.lng) {
+                        map.setCenter(new kakao.maps.LatLng(place.lat, place.lng));
+                    }
+                };
+                li.id = 'place-li-' + place.id;
+                list.appendChild(li);
+            });
+        }
+
+        function selectListItem(id) {
+            document.querySelectorAll('#placeList li').forEach(li => li.classList.remove('selected'));
+            const li = document.getElementById('place-li-' + id);
+            if (li) li.classList.add('selected');
+        }
+
+        function showDetail(id) {
+            const place = placesData.find(p => p.id === id);
+            if (!place) return;
+            selectedPlaceId = id;
+            const box = document.getElementById('detailBox');
+            box.innerHTML = `
+                <b>상세 정보</b><br>
+                <label>시설물명:<br><input type="text" id="detailName" value="${place.name}"></label><br>
+                <label>주소:<br><input type="text" id="detailAddress" value="${place.address}"></label><br>
+                <label>위도:<br><input type="text" id="detailLat" value="${place.lat}"></label><br>
+                <label>경도:<br><input type="text" id="detailLng" value="${place.lng}"></label><br>
+                <div class="detail-actions">
+                    <button onclick="updatePlace()">수정</button>
+                    <button class="delete" onclick="deletePlace()">삭제</button>
+                    <button onclick="closeDetail()">닫기</button>
+                </div>
+            `;
+            box.style.display = 'block';
+        }
+
+        function closeDetail() {
+            document.getElementById('detailBox').style.display = 'none';
+            selectedPlaceId = null;
+            document.querySelectorAll('#placeList li').forEach(li => li.classList.remove('selected'));
+        }
+
+        function updatePlace() {
+            if (!selectedPlaceId) return;
+            const name = document.getElementById('detailName').value.trim();
+            const address = document.getElementById('detailAddress').value.trim();
+            const lat = document.getElementById('detailLat').value.trim();
+            const lng = document.getElementById('detailLng').value.trim();
+            fetch(`/places`, {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ id: selectedPlaceId, name, address, lat, lng })
+            })
+            .then(res => {
+                if (res.ok) {
+                    alert('수정되었습니다.');
+                    closeDetail();
+                    loadPlaces();
+                } else {
+                    alert('수정 실패!');
+                }
+            });
+        }
+
+        function deletePlace() {
+            if (!selectedPlaceId) return;
+            if (!confirm('정말 삭제하시겠습니까?')) return;
+            fetch(`/places/${selectedPlaceId}`, { method: 'DELETE' })
+                .then(res => {
+                    if (res.ok) {
+                        alert('삭제되었습니다.');
+                        closeDetail();
+                        loadPlaces();
+                    } else {
+                        alert('삭제 실패!');
+                    }
+                });
+        }
+
+        // 등록 폼 처리
+        document.getElementById('registerForm').onsubmit = function(e) {
+            var name = this.name.value.trim();
+            var address = this.address.value.trim();
+            var lat = this.lat.value.trim();
+            var lng = this.lng.value.trim();
+            if (!name || !address || !lat || !lng) {
+                document.getElementById('message').innerText = '모든 값을 입력하세요!';
+                e.preventDefault();
+                return false;
+            }
+            e.preventDefault();
+            var formData = new FormData(this);
+            fetch('/register', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {
+                if (response.redirected) {
+                    document.getElementById('message').innerText = '등록 성공!';
+                    setTimeout(() => location.reload(), 1000);
+                } else {
+                    document.getElementById('message').innerText = '등록 실패!';
+                }
+            })
+            .catch(() => {
+                document.getElementById('message').innerText = '등록 중 오류 발생!';
+            });
+        };
+    </script>
+</body>
+</html>
