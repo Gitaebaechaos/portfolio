@@ -36,6 +36,12 @@
 
 ---
 
+### 📷 시연 화면 또는 구조 다이어그램
+
+![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/62.png)
+
+---
+
 ## 📈 Assignment 2 – 비즈니스 우선순위 기반 빅데이터 전략 제안
 
 - **목표:**  
@@ -64,6 +70,4 @@
 
 ### 📷 시연 화면 또는 구조 다이어그램
 
-![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/26.png)
-![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/25.png)
-![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/24.png)
+![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/63.png)
