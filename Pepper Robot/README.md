@@ -60,18 +60,9 @@
 #### 📁 폴더 1: `Pepper_Robot_Main/`
 
 > 주요 시나리오 및 기능 구현 파일 포함  
-> - `feedback_module.py`: 피드백 시스템 로직  
-> - `dialog_flow.flow`: Choreographe용 시나리오 흐름  
+> - `ICT-2023-SP5-03 프로젝트.zip`: 최종 시스템 로직  
+> - `SRS Document2023.pdf`: Choreographe용 시나리오 흐름  
 > - `README.md`: 주요 기능 설명서  
-
----
-
-#### 📁 폴더 2: `Pepper_Robot_Resources/`
-
-> 자료 및 리소스 파일 포함 (이미지, 사용자 피드백, 내부 문서 등)  
-> - `ICT-2023-SP5-03 프로젝트.zip`: 최종 발표 자료  
-> - `SRS Document2023.pdf`: 설명
-> - `README.md`: README 파일
 
 ---
 
