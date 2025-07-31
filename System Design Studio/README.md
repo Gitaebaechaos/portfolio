@@ -1,7 +1,5 @@
 ## 🚑 응급차 긴급 출동 시스템 (Ambulance Emergency Response System)
 
----
-
 ### 📅 작업 기간  
 2021-07-30 ~ 2021-11-20
 
