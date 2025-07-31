@@ -113,6 +113,13 @@
 
 ---
 
+### 📷 시연 화면 또는 구조 다이어그램
+
+![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/56.png)
+![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/57.png)
+
+---
+
 ## 💬 Assignment 2: 질문 답변 시스템
 
 ### 🔹 프로젝트 개요
@@ -156,8 +163,4 @@
 
 ### 📷 시연 화면 또는 구조 다이어그램
 
-![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/37.png)
-![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/36.png)
-![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/34.png)
-![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/33.png)
-![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/32.png)
+![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/58.png)
