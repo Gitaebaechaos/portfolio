@@ -93,7 +93,5 @@ SA Ambulance의 요청에 기반하여 한국의 **"000(응급 전화)"** 시스
 
 ### 📷 시연 화면 또는 구조 다이어그램
 
-![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/30.png)
-![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/29.png)
 ![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/28.png)
 ![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/27.png)
