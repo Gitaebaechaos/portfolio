@@ -1,7 +1,5 @@
 ## ⚙️ Operating Systems and Tool Chains
 
----
-
 ### 📅 작업 기간  
 **2022.03.07 ~ 2022.07.10**
 
