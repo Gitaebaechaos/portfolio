@@ -1,8 +1,77 @@
-작업기간 : 2022-06-27 ~ 2022-10-03
-작업인원 : 3 명
-작업 툴 : GitHub, xampp control panel, notepad
-작품소개 : xampp control panel을 이용해서 Apache와 MySQL을 이용해서 notepad로 php코드를 작성을 하고 phpmyadmin으로 데이터를 관리하면서 레스토랑 북킹 로그인 시스템과 예약 시스템 그리고 웹페이지를 따로 만들어서 데이터를 불러들이고 그걸 웹페이지에 전달하여 보이게 했던 파일이다.
-![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/18.png)
-![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/17.png)
+## 📅 Booking System (레스토랑 예약 시스템)
+
+### 🗓️ 작업 기간  
+**2022.06.27 ~ 2022.10.03**
+
+### 👥 작업 인원  
+**3명**
+
+### 🛠️ 사용 툴  
+- GitHub  
+- XAMPP Control Panel (Apache, MySQL)  
+- Notepad  
+- phpMyAdmin  
+
+---
+
+### 👤 작업 분배  
+이 프로젝트에서 **전체 작업의 약 70%**를 담당하였습니다.
+
+- **XAMPP 환경 설정** (Apache + MySQL)
+- **PHP 코드 작성 및 데이터베이스 연동** 전반 주도
+- **사용자 로그인 및 회원가입 기능 구현**
+- **날짜/시간 기반 예약 시스템 구축**
+- **phpMyAdmin과의 연동 로직 개발**
+- **프론트엔드 페이지 구조 설계 및 구현**
+- 사용자 입력 → 서버 전달 → DB 저장 → 시각적 피드백까지 전체 흐름 주도적으로 구현  
+- 전반적인 예약 시스템 기능 구현을 대부분 단독으로 처리함
+
+---
+
+### 📌 프로젝트 개요  
+
+본 프로젝트는 **레스토랑 예약 시스템**으로,  
+사용자는 웹페이지를 통해 **회원가입 및 로그인**을 하고,  
+**날짜 및 시간 기반 예약** 기능을 사용할 수 있습니다.
+
+웹페이지는 **직관적인 사용자 인터페이스(UI)**를 제공하며,  
+예약 요청은 **PHP를 통해 서버에 전달**되고,  
+**MySQL 데이터베이스에 저장**됩니다.
+
+관리자는 **phpMyAdmin**을 통해 실시간으로 예약 현황을 확인하고 관리할 수 있습니다.
+
+---
+
+### 🧩 핵심 기능  
+
+| 기능 | 설명 |
+|------|------|
+| 회원가입 & 로그인 | 사용자는 계정을 생성하고 로그인 후 예약 가능 |
+| 날짜별 예약 시스템 | 날짜와 시간을 선택하여 예약 가능 |
+| DB 연동 | 예약 정보는 MySQL DB에 저장 및 관리 |
+| 관리자 기능 | phpMyAdmin을 통해 예약 데이터 조회 및 조작 가능 |
+| 프론트엔드 구성 | Notepad로 직접 HTML, CSS, PHP 작성 |
+| 동적 페이지 | 사용자 입력 데이터를 실시간으로 출력 |
+
+---
+
+### 🌐 시스템 구성 흐름
+
+[사용자] → [웹 UI 입력] → [PHP 처리] → [MySQL 저장] → [예약 완료 시각적 확인]
+
+---
+
+### ✅ 성과
+
+- 프론트엔드 + 백엔드 + DB 연동 전체 프로세스 직접 구현
+- 실시간 예약 확인 및 처리 가능
+- 동적인 웹페이지 구조 설계 및 완성
+- 팀 내 기술 중심 역할 수행 (70% 이상 기여도)
+
+---
+
+### 📷 시연 화면 또는 구조 다이어그램
+
+![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/67.png)
 ![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/16.png)
 ![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/15.png)
