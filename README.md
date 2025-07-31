@@ -1,6 +1,6 @@
 ## 🗂️ 프로젝트 작업 개요
 
-![포트폴리오 대표 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/1.png
+![포트폴리오 대표 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/1.png)
 
 ### 📅 작업 기간  
 **2021.07.01 ~ 2024.08.30**
