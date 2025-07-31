@@ -78,6 +78,8 @@ COVID-19 이후에는 **온라인 방식의 "at-home" 대회**도 병행되고 �
 - **정확한 점수 계산 기능** 구현
 - 다양한 경기 방식 지원으로 **실용성 강화**
 
+---
+
 ### 📷 시연 화면 또는 구조 다이어그램
 
 ![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/54.png)
