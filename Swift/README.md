@@ -36,7 +36,7 @@
 
 ---
 
-## 📱 Assignment 1: Kilowatts to Horsepower Converter
+## 🤖 Assignment 1: Kilowatts to Horsepower Converter
 
 ### 🔹 프로젝트 개요
 킬로와트(kW)에서 마력(hp)으로 변환하는 공식은 간단하지만, 마력 단위에는 세 가지 다른 표준이 존재합니다.  
