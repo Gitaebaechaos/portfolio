@@ -75,16 +75,16 @@
 
 ---
 
+### 📷 시연 화면 또는 구조 다이어그램
+
+![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/67.png)
+![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/68.png)
+
+---
+
 ## 📌 프로젝트 요약
 
 이 프로젝트는 **현장 중심의 문제 해결 능력**,  
 **시스템 수준의 설계 이해**,  
 **시간 관리 도구 개발 경험**을 바탕으로  
 **실용적이고 응용 가능한 소프트웨어 및 시스템 설계 역량**을 입증하였습니다.
-
----
-
-### 📷 시연 화면 또는 구조 다이어그램
-
-![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/67.png)
-![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/68.png)
