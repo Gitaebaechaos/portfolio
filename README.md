@@ -30,15 +30,13 @@
 각 폴더에는 다음과 같은 형태로 설명이 포함되어 있습니다:
 
 📂 Project_Name/
-├─ 📄 README.md → 프로젝트 개요 및 핵심 기능 설명
-├─ 📁 src/ → 실제 코드 파일
-├─ 📁 그 외 다른 파일들
-└─ 📦 project.zip → 전체 압축 파일 (해당 시)
+├─ 📄 README.md → 프로젝트 개요 및 핵심 기능 설명<br>
+├─ 📁 src/ → 실제 코드 파일<br>
+├─ 📁 그 외 다른 파일들<br>
+└─ 📦 project.zip → 전체 압축 파일 (해당 시)<br>
 
 
 ---
-
-### 🖼️ 포트폴리오 이미지
 
 ![포트폴리오 대표 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/1.png)
 
