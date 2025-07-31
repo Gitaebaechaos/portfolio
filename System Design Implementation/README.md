@@ -151,8 +151,10 @@
     "answer": "Same as yesterday."
   }
 ]
-
+```
 ---
+
+### 📷 시연 화면 또는 구조 다이어그램
 
 ![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/37.png)
 ![포트폴리오 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/36.png)
