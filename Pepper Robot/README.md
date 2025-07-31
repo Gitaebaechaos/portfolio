@@ -69,9 +69,9 @@
 #### 📁 폴더 2: `Pepper_Robot_Resources/`
 
 > 자료 및 리소스 파일 포함 (이미지, 사용자 피드백, 내부 문서 등)  
-> - `presentation.pdf`: 최종 발표 자료  
-> - `user_feedback_sample.csv`: 피드백 예시  
-> - `video_demo.mp4`: 시연 영상
+> - `ICT-2023-SP5-03 프로젝트.zip`: 최종 발표 자료  
+> - `SRS Document2023.pdf`: 설명
+> - `README.md`: README 파일
 
 ---
 
