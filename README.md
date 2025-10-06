@@ -3,7 +3,7 @@
 ![포트폴리오 대표 이미지](https://raw.githubusercontent.com/Gitaebaechaos/portfolio/main/images/1.png)
 
 ### 📅 작업 기간  
-**2021.07.01 ~ 2024.08.30**
+**2021.07.01 ~ 2025.07.23**
 
 ### 👤 작업 인원  
 **1명 (개인 프로젝트)**
